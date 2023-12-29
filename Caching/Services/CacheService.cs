@@ -1,5 +1,6 @@
-﻿using System.Text.Json;
+﻿using Newtonsoft.Json;
 using StackExchange.Redis;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace Caching.Services;
 
